@@ -5,40 +5,53 @@ Aqui você cria seu avatar, enfrenta desafios, coleciona conquistas e aprende de
 
 ---
 
-## 🕹️ Tecnologias (Poderes do Jogo)
+<p align="center">
+  <img src="https://img.shields.io/badge/🎮-JUST%20DREAMS-8A2BE2?style=for-the-badge&logo=steam&logoColor=white" />
+</p>
 
-### 🖥️ Front-end – Interface do Jogador
+<h1 align="center">✨ Just Dreams ✨</h1>
+
+<p align="center">Um jogo educativo que transforma aprendizado em uma <b>aventura épica</b>! 🚀📚</p>
+
+---
+
+## 🕹️ Tecnologias (Poderes do Herói)
+
+### 🖥️ Front-end – HUD do Jogador
 <p align="left">
   <img src="https://img.shields.io/badge/🕹️-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/🎨-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
   <img src="https://img.shields.io/badge/⚡-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 </p>
 
-### ⚙️ Back-end – Motor do Jogo
+### ⚙️ Back-end – Motor da Guilda
 <p align="left">
   <img src="https://img.shields.io/badge/🧩-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/🌍-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/🚀-Express-000000?style=for-the-badge&logo=express&logoColor=white" />
 </p>
 
-### 🗄️ Banco de Dados – Inventário
+### 🗄️ Banco de Dados – Tesouro da Masmorra
 <p align="left">
-  <img src="https://img.shields.io/badge/📀-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/🌱-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/🗝️-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
 </p>
 
 ---
 
-## 🎯 Missão do Projeto
+## 🎯 Missão do Jogo
 
-- 👤 Criar avatar e personalizar perfil  
-- 📚 Aprender com quizzes interativos e frases contextualizadas  
-- 🏆 Ganhar cartas digitais e streaks diários  
-- 👨‍🏫 Professores criam planos e acompanham relatórios  
-- 📊 Sistema gera métricas, recomenda lições e envia lembretes  
-- 🤝 Grupos de estudo e eventos temáticos especiais  
+- 👤 Criar e evoluir um **avatar heróico**  
+- 📚 Enfrentar **quizzes mágicos** e aprender frases do mundo real  
+- 🏆 Ganhar **cartas raras** e manter o **streak diário** (fogo da chama eterna)  
+- 👨‍🏫 Mestres (professores) criam **planos de aventura** e acompanham aprendizes  
+- 📊 Relatórios e métricas para **upar habilidades**  
+- 🤝 Juntar-se a **guildas de estudo** e participar de torneios  
 
 ---
+
+
+
+
 
 ## 📂 Estrutura do Repositório
 

@@ -3,7 +3,7 @@
 ✨ Uma plataforma gamificada de aprendizado que transforma **estudos em diversão**!  
 Aqui você cria seu avatar, enfrenta desafios, coleciona conquistas e aprende de forma interativa.  
 
----
+----
 
 <p align="center">
   <img src="https://img.shields.io/badge/🎮-JUST%20DREAMS-8A2BE2?style=for-the-badge&logo=steam&logoColor=white" />

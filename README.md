@@ -38,20 +38,6 @@ Aqui você cria seu avatar, enfrenta desafios, coleciona conquistas e aprende de
 
 ---
 
-## 🎯 Missão do Jogo
-
-- 👤 Criar e evoluir um **avatar heróico**  
-- 📚 Enfrentar **quizzes mágicos** e aprender frases do mundo real  
-- 🏆 Ganhar **cartas raras** e manter o **streak diário** (fogo da chama eterna)  
-- 👨‍🏫 Mestres (professores) criam **planos de aventura** e acompanham aprendizes  
-- 📊 Relatórios e métricas para **upar habilidades**  
-- 🤝 Juntar-se a **guildas de estudo** e participar de torneios  
-
----
 
 
-
-
-
-## 📂 Estrutura do Repositório
 

@@ -1,0 +1,193 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #21193d; /* Roxo escuro */
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 80vh;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: #2b234d; /* Roxo um pouco mais claro */
+    overflow: hidden;
+    color: #fff;
+}
+
+/* Painel da Esquerda CORRIGIDO */
+.left-panel {
+    background: linear-gradient(135deg, #3b3363, #2b234d); /* Gradiente para dar um toque sutil */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-section {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px; /* Tamanho do logo */
+    height: auto;
+    margin-right: 10px;
+}
+
+.game-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.left-panel h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Painel da Direita */
+.right-panel {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #2b234d;
+}
+
+.right-panel h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Abas */
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.tab-button {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    background-color: #3b3363;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+    background-color: #5555ff; /* Azul vibrante */
+    box-shadow: 0 0 15px rgba(85, 85, 255, 0.5);
+}
+
+/* Formulários */
+.form {
+    display: none;
+    flex-direction: column;
+}
+
+.form.active {
+    display: flex;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+    font-weight: 600;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #5555ff;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #3b3363;
+    color: #fff;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #ff55c2; /* Rosa vibrante */
+    box-shadow: 0 0 10px rgba(255, 85, 194, 0.5);
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #5555ff; /* Azul vibrante */
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #ff55c2; /* Rosa vibrante */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-panel, .right-panel {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .left-panel {
+        padding: 30px 20px;
+        border-radius: 20px 20px 0 0;
+    }
+
+    .right-panel {
+        padding: 30px 20px;
+    }
+}
